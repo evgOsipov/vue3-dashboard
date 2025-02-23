@@ -4,6 +4,7 @@ export interface ViteConfigPaths {
 
 export interface ViteConfigOptions {
   mode: string;
+  paths: ViteConfigPaths;
 }
 
 export interface ViteConfigEnvVariables {
