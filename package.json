@@ -1,6 +1,5 @@
 {
   "name": "vue3-dashboard",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "3.5.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "@vue/tsconfig": "^0.7.0",
+    "@vitejs/plugin-vue": "5.2.1",
+    "@vue/tsconfig": "0.7.0",
     "@types/node": "22.13.5",
-    "typescript": "~5.7.2",
-    "vite": "^6.1.0",
-    "vue-tsc": "^2.2.0"
+    "typescript": "5.7.2",
+    "vite": "6.1.0",
+    "vue-tsc": "2.2.0"
   }
 }
