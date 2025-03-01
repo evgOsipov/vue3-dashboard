@@ -3,10 +3,10 @@ import path from 'node:path';
 import { defineConfig } from 'vite'
 
 import { buildViteConfig } from './build/buildViteConfig';
-import { ViteConfigPaths } from './build/interfaces/ViteConfig';
+import { ViteConfigPaths } from './build/interfaces/viteConfig';
 
 const paths: ViteConfigPaths = {
-  src: path.resolve(__dirname, 'src'),
+  srcPath: path.resolve(__dirname, 'src'),
 }
 
 export default defineConfig((options) => {

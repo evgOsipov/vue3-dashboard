@@ -3,7 +3,7 @@ import { loadEnv } from 'vite';
 import { buildVitePlugins } from './buildVitePlugins';
 import { buildDevServer } from './buildDevServer';
 import { buildViteResolve } from './buildViteResolve';
-import { ViteConfigOptions } from './interfaces/ViteConfig';
+import { ViteConfigOptions } from './interfaces/viteConfig';
 
 export const buildViteConfig = (options: ViteConfigOptions) => {
   const env = loadEnv(options.mode, process.cwd(), '');

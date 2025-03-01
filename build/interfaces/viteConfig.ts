@@ -1,5 +1,5 @@
 export interface ViteConfigPaths {
-  src: string;
+  srcPath: string;
 }
 
 export interface ViteConfigOptions {
